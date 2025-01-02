@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{EF8DC771-D924-8D8E-B834-865BAD4CDD6F}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b6e57161-ecc4-4f40-966a-a119cf30e2c3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CaptureTrigger.cs">
+    <Files>
+      <File FileName="Assets/CameraCapture.cs" Line="54" Column="1" />
+      <File FileName="Assets/CaptureTrigger.cs" Line="26" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assembly-CSharp">
+            <Node name="Assets" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

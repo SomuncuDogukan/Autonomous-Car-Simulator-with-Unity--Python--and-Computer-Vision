@@ -2,24 +2,24 @@ using UnityEngine;
 
 public class CaptureTrigger : MonoBehaviour
 {
-    public CameraCapture cameraCapture;  // CameraCapture script'ine referans
+    public CameraCapture cameraCapture;  // Reference to the CameraCapture script
 
     void Start()
     {
-        // Kamera Capture script'ini sahne üzerinden atayın
+        // Assign the CameraCapture script from the scene if it's not already assigned
         if (cameraCapture == null)
         {
-            Debug.LogError("CameraCapture script'i atanmamış!");
+            Debug.LogError("CameraCapture script is not assigned!");
         }
     }
 
     void Update()
     {
-        // Space tuşuna basıldığında tetiklenir
+        // Trigger the image capture and send when the Space key is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("CaptureAndSendImage çağrılıyor...");
-            cameraCapture.CaptureAndSendImage();
+            Debug.Log("Calling CaptureAndSendImage...");
+            cameraCapture.CaptureAndSendImage();  // Call the CaptureAndSendImage method from CameraCapture script
         }
     }
 }
